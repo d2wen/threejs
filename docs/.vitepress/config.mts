@@ -3,8 +3,9 @@ import { type DefaultTheme } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Threejs 笔记",
-  description: "一些 Threejs 的笔记",
+  title: "Threejs 笔记", // 网站标题
+  description: "一些 Threejs 的笔记", // 网站描述
+  base: '/threejs/', // 网站根路径
   cleanUrls: true, // 当设置为 true 时，VitePress 将从 URL 中删除 .html 后缀。
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
