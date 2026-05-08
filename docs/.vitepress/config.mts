@@ -66,6 +66,10 @@ function nav(): DefaultTheme.NavItem[] {
       link: '/reference/threejs05',
       activeMatch: '/reference/'
     },
+    {
+      text: '回到主页',
+      link: 'https://d2wen.github.io/',
+    },
   ]
 }
 
